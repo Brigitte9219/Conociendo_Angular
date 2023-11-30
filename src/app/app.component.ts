@@ -6,7 +6,7 @@ import { RouterOutlet } from '@angular/router';
   selector: 'app-root',
   standalone: true,
   imports: [CommonModule, RouterOutlet],
-  template: "Hello Brigitte Padilla",
+  template: `Hello {{ city}}, su edad es {{21+1}}`,
   styles: `
   :host{
     color: #a144eb;
@@ -15,4 +15,5 @@ import { RouterOutlet } from '@angular/router';
 })
 export class AppComponent {
   title = 'probando';
+  city = 'San Francisco';//Se añade esta propiedad
 }
