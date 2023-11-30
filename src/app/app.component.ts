@@ -3,11 +3,12 @@ import { CommonModule } from '@angular/common';
 import { RouterOutlet } from '@angular/router';
 import { UserComponent } from './componente1/user.component';
 import { RepetirComponent } from './componente2/repetir.component';
+import { Componente3Component } from './componente3/componente3.component';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [CommonModule, RouterOutlet, UserComponent, RepetirComponent],
+  imports: [CommonModule, RouterOutlet, UserComponent, RepetirComponent, Componente3Component],
   templateUrl: './app.component.html',
   styles: `
   :host{
