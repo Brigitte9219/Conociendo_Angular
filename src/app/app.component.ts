@@ -6,8 +6,12 @@ import { RouterOutlet } from '@angular/router';
   selector: 'app-root',
   standalone: true,
   imports: [CommonModule, RouterOutlet],
-  templateUrl: './app.component.html',
-  styleUrl: './app.component.css'
+  template: "Hello Universe",
+  styles: `
+  :host{
+    color: #a144eb;
+  }
+  `
 })
 export class AppComponent {
   title = 'probando';
