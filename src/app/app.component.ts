@@ -6,7 +6,7 @@ import { RouterOutlet } from '@angular/router';
   selector: 'app-root',
   standalone: true,
   imports: [CommonModule, RouterOutlet],
-  template: "Hello Universe",
+  template: "Hello Brigitte Padilla",
   styles: `
   :host{
     color: #a144eb;
