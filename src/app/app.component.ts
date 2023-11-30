@@ -1,8 +1,8 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { RouterOutlet } from '@angular/router';
-import { UserComponent } from './user/user.component';
-import { RepetirComponent } from './repetir/repetir.component';
+import { UserComponent } from './componente1/user.component';
+import { RepetirComponent } from './componente2/repetir.component';
 
 @Component({
   selector: 'app-root',
